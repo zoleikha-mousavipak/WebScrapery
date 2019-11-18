@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+#search for pizza
 search = input("Search for:")
 params = {"q": search}
 r = requests.get("http://www.bing.com/search", params=params)
